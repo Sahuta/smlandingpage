@@ -1,0 +1,122 @@
+p{
+  margin: 1em 0px;
+  padding:0;
+  font-size: 0.8rem;
+}
+
+h2{
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+.layer{
+  background-color: rgba(0,0,0,0.5);
+}
+.white{
+  color: #fff;
+}
+.bg-lightgreen{
+  background-color: #42f4c2;
+}
+
+.container{
+  padding-top: 100px;
+}
+
+.row{
+  padding-top: 80px;
+}
+.section-logo {
+  width: 180px;
+  height: 180px;
+  border: solid 8px;
+  margin: auto;
+  position: relative;
+}
+
+.section-logo h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+}
+
+
+
+.vision{
+  background: url(../images/visionbg.jpg);
+  background-size: cover;
+  height: 100%;
+}
+.vision-h2{
+  font-size: 60px;
+  text-align: right;
+  padding-top:100px;
+}
+.vision-text-wrapper{
+  text-align: right;
+  padding-bottom: 200px;
+  padding-right: 20px;
+}
+.first-logo{
+  width: 50%;
+  align-items: flex-start;
+  padding-top: 100px;
+}
+
+.youtube{
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.youtube iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.product-img{
+  padding-top: 40px;
+  display: flex;
+}
+.product-img img{
+  width: 80%;
+}
+
+.subscribe-form{
+  display: flex;
+}
+.team{
+  background: url(../images/teambg.jpg);
+  background-size: cover;
+}
+
+
+@media screen and (max-width: 570px){
+  .flex-in-sp{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .flex-in-sp li{
+      width: 50%;
+
+  }
+
+}
+.contact{
+  background: url(../images/contactbg.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+.contact-form{
+  text-align: center;
+}
